@@ -1,0 +1,47 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.ch-green {
+    background-color: #ff6740;
+    color: #fff;
+}
+
+.ch-green-text {
+    color: #ff6740;
+}
+
+.active-ch {
+    background-color: #ff6740;
+    color: #fff;
+    border-radius: 5px;
+    z-index: -1;
+    cursor: pointer;
+}
+
+.text-danger {
+    color: rgb(220 53 69);
+}
+
+.form-text {
+    height: 15px;
+}
+
+.form-control-plaintext {
+    display: block;
+    width: 100%;
+    padding-top: .375rem;
+    padding-bottom: .375rem;
+    margin-bottom: 0;
+    line-height: 1.5;
+    background-color: transparent;
+    border: solid transparent;
+    border-width: 1px 0;
+}
+
+.btn:hover,a:hover {
+    color: #fff;
+}

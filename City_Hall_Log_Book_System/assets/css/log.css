@@ -1,0 +1,50 @@
+
+
+.choice {
+    width: 19rem; 
+    height: 5rem; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+}
+
+.fa-arrow-left {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+/* Fetch Employee Data Loading */
+
+.dot1, .dot2, .dot3 {
+    opacity: 0;
+    animation: showDots 1s infinite steps(3);
+}
+
+.dot1 {
+    animation-delay: 0s;
+}
+
+.dot2 {
+    animation-delay: 0.4s;
+}
+
+.dot3 {
+    animation-delay: 0.8s;
+}
+
+@keyframes showDots {
+    0%, 100% {
+        opacity: 0;
+    }
+    25%, 50%, 75% {
+        opacity: 1;
+    }
+}
+
+

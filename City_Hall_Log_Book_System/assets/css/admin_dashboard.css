@@ -1,0 +1,16 @@
+ 
+ .row.content {height: 550px}
+ 
+ .sidenav {
+   background-color: #f1f1f1;
+   height: 100%;
+ }
+     
+
+ @media screen and (max-width: 767px) {
+   .row.content {height: auto;} 
+ }
+
+ table, th, td {
+    border:1px solid black;
+  }
